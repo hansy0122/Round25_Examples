@@ -9,6 +9,7 @@ public class DataGetter {
 		System.out.println("server ready");
 		
 		while(true){
+			System.out.println("git");
 			byte[] by=new byte[65508];
 			DatagramPacket dp=new DatagramPacket(by,by.length);
 			ds.receive(dp);
